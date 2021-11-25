@@ -1,5 +1,5 @@
 def lambda_handler(event, context):
-    message = 'Hello {} {}!'.format(event['first_name'], event['last_name'])  
+    message = 'Hello {} {}!'.format(event['First_name'], event['Last_name'])  
     return { 
         'message' : message
     }
